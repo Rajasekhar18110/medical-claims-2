@@ -56,10 +56,13 @@ function App() {
                 <Router>
                     <Routes>
                         <Route path="medical-claims-2/" element={<Login />} />
-                        <Route path="/Signup" element={<Signup />} />
+                        <Route
+                            path="medical-claims-2/Signup"
+                            element={<Signup />}
+                        />
                         {/* <Route path="*" element={<Errorpage />} /> */}
                         <Route
-                            path="/Home"
+                            path="medical-claims-2/Home"
                             element={
                                 <PrivateRoute>
                                     <Home />
@@ -67,7 +70,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/authority_Home/ShowAllApplication/:id"
+                            path="medical-claims-2/authority_Home/ShowAllApplication/:id"
                             element={
                                 <PrivateRoute>
                                     <ShowAllApplication />
@@ -75,7 +78,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Page1"
+                            path="medical-claims-2/Page1"
                             element={
                                 <PrivateRoute>
                                     <Page1 />
@@ -83,7 +86,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Home/ShowApplication/:id"
+                            path="medical-claims-2/Home/ShowApplication/:id"
                             element={
                                 <PrivateRoute>
                                     <ShowApplication />
@@ -91,7 +94,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Page1/Page2"
+                            path="medical-claims-2/Page1/Page2"
                             element={
                                 <PrivateRoute>
                                     <Page2 />
@@ -99,7 +102,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Page1/Page2/Page3"
+                            path="medical-claims-2/Page1/Page2/Page3"
                             element={
                                 <PrivateRoute>
                                     <Page3 />
@@ -107,7 +110,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Page1/Page2/Page3/Accountpage1"
+                            path="medical-claims-2/Page1/Page2/Page3/Accountpage1"
                             element={
                                 <PrivateRoute>
                                     <Accountpage1 />
@@ -115,7 +118,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Page1/Page2/Page3/Accountpage1/Application"
+                            path="medical-claims-2/Page1/Page2/Page3/Accountpage1/Application"
                             element={
                                 <PrivateRoute>
                                     <Application />
@@ -123,7 +126,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Page1/Page2/Page3/Accountpage1/Accountpage"
+                            path="medical-claims-2/Page1/Page2/Page3/Accountpage1/Accountpage"
                             element={
                                 <PrivateRoute>
                                     <Accountpage />
@@ -131,7 +134,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/authority_Home" //corresponds to pharmacist
+                            path="medical-claims-2/authority_Home" //corresponds to pharmacist
                             element={
                                 <PrivateRoute>
                                     <Home_authority />
@@ -139,7 +142,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Medical_officer" //corresponds to medical officer
+                            path="medical-claims-2/Medical_officer" //corresponds to medical officer
                             element={
                                 <PrivateRoute>
                                     <Medical_officer />
@@ -147,7 +150,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/AccountSection" //corresponds to account section
+                            path="medical-claims-2/AccountSection" //corresponds to account section
                             element={
                                 <PrivateRoute>
                                     <AccountSection />
@@ -155,7 +158,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/DAorJAO" //corresponds to DAorJAO
+                            path="medical-claims-2/DAorJAO" //corresponds to DAorJAO
                             element={
                                 <PrivateRoute>
                                     <DAorJAO />
@@ -163,7 +166,7 @@ function App() {
                             }
                         />{" "}
                         <Route
-                            path="/AO"
+                            path="medical-claims-2/AO"
                             element={
                                 <PrivateRoute>
                                     //corresponds to AO
@@ -172,7 +175,7 @@ function App() {
                             }
                         />{" "}
                         <Route
-                            path="/SrAO"
+                            path="medical-claims-2/SrAO"
                             element={
                                 <PrivateRoute>
                                     //corresponds to srAO
@@ -181,7 +184,7 @@ function App() {
                             }
                         />{" "}
                         <Route
-                            path="/Registrar"
+                            path="medical-claims-2/Registrar"
                             element={
                                 <PrivateRoute>
                                     //corresponds to registrar
@@ -190,7 +193,7 @@ function App() {
                             }
                         />{" "}
                         <Route
-                            path="/Home_authority/ShowAllApplication/:id"
+                            path="medical-claims-2/Home_authority/ShowAllApplication/:id"
                             element={
                                 <PrivateRoute>
                                     <ShowAllApplication />
@@ -198,7 +201,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Medical_officer/ShowAllApplication/:id"
+                            path="medical-claims-2/Medical_officer/ShowAllApplication/:id"
                             element={
                                 <PrivateRoute>
                                     <ShowAllApplication />
@@ -206,7 +209,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/AccountSection/ShowAllApplication/:id"
+                            path="medical-claims-2/AccountSection/ShowAllApplication/:id"
                             element={
                                 <PrivateRoute>
                                     <ShowAllApplication />
@@ -214,7 +217,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/DAorJAO/ShowAllApplication/:id"
+                            path="medical-claims-2/DAorJAO/ShowAllApplication/:id"
                             element={
                                 <PrivateRoute>
                                     <ShowAllApplication />
@@ -222,7 +225,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/AO/ShowAllApplication/:id"
+                            path="medical-claims-2/AO/ShowAllApplication/:id"
                             element={
                                 <PrivateRoute>
                                     <ShowAllApplication />
@@ -230,7 +233,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/SrAO/ShowAllApplication/:id"
+                            path="medical-claims-2/SrAO/ShowAllApplication/:id"
                             element={
                                 <PrivateRoute>
                                     <ShowAllApplication />
@@ -238,7 +241,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="/Registrar/ShowAllApplication/:id"
+                            path="medical-claims-2/Registrar/ShowAllApplication/:id"
                             element={
                                 <PrivateRoute>
                                     <ShowAllApplication />
