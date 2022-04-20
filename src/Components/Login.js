@@ -240,7 +240,7 @@ function Login() {
                     <br />
                     <br />
 
-                    <Link to="/Signup">
+                    <Link to="medical-claims-2/Signup">
                         <Button type="button">Signup</Button>
                     </Link>
                 </form>
