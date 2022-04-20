@@ -34,11 +34,14 @@ function Home() {
     const [result_arr, setresult_arr] = useState([])
 
     const getApplicationId = async () => {
-        const res = await fetch("/getApplicationId", {
-            method: "POST",
-            body: JSON.stringify({ currentUser }),
-            headers: { "Content-Type": "application/json" },
-        })
+        const res = await fetch(
+            "https://medical-claims2.herokuapp.com/getApplicationId",
+            {
+                method: "POST",
+                body: JSON.stringify({ currentUser }),
+                headers: { "Content-Type": "application/json" },
+            }
+        )
 
         const data = await res.json()
         console.log(data["result"])
