@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/medical-claims-2/static/css/main.a33f80e3.css",
+    "main.js": "/medical-claims-2/static/js/main.816e17dc.js",
+    "static/js/787.ec78c698.chunk.js": "/medical-claims-2/static/js/787.ec78c698.chunk.js",
+    "static/media/logo.png": "/medical-claims-2/static/media/logo.16945f7da71d17b9355c.png",
+    "index.html": "/medical-claims-2/index.html",
+    "main.a33f80e3.css.map": "/medical-claims-2/static/css/main.a33f80e3.css.map",
+    "main.816e17dc.js.map": "/medical-claims-2/static/js/main.816e17dc.js.map",
+    "787.ec78c698.chunk.js.map": "/medical-claims-2/static/js/787.ec78c698.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a33f80e3.css",
+    "static/js/main.816e17dc.js"
+  ]
+}
