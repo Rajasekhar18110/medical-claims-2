@@ -55,9 +55,9 @@ function App() {
             <AuthProvider>
                 <Router>
                     <Routes>
-                        <Route path="/" element={<Login />} />
+                        <Route path="medical-claims-2/" element={<Login />} />
                         <Route path="/Signup" element={<Signup />} />
-                            {//<Route path="*" element={<Errorpage />} />}
+                        {/* <Route path="*" element={<Errorpage />} /> */}
                         <Route
                             path="/Home"
                             element={
